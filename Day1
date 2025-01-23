@@ -12,3 +12,34 @@ public class FirstProgram{
         }
     }
 }
+//make calculator using switch
+import java.util.*;
+public class Program{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+       int m=sc.nextInt();
+       String str=sc.next();
+
+        switch(str){
+            case "+":
+                System.out.println(n +m);
+                break;
+
+
+            case "-":
+                System.out.println(n - m);
+                break;
+            case "*":
+                System.out.println(n*m);
+                break;
+            case "%":
+                System.out.println(n%m);
+            default:
+                System.out.println("sorry");
+
+
+        }
+    }
+
+}
